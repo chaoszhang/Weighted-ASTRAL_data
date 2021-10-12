@@ -1,1 +1,134 @@
-(((Lipotriches_justiciae:0.01606898641909565092,Lipotriches_collaris:0.02103607140279212945)100:0.03778273338067134057,((Afronomia_circumnitens:0.04137848808808003431,Macronomia_clavisetis:0.05584221764747571148)100:0.00403355754787739808,(((Dieunomia_triangulifera:0.00525156057214764063,Dieunomia_heteropoda:0.00776518674390596839)100:0.07070586182852393875,(Lasioglossum_albipes:0.28658827186775598372,Dufourea_novaeangliae:0.30763311939724430344)100:0.08023257435763725409)100:0.01519568719059107703,((((Nomiapis_diversipes:0.00639247429919489497,Nomiapis_bispinosa:0.00994791369766782549)100:0.00844992275927627760,((((Pseudapis_siamensis:0.00455840100609452951,Pseudapis_oxybeloides:0.00390984790001294106)100:0.00403015132856327733,(Pseudapis_interstitinervis:0.00658036340929251968,(Pseudapis_nilotica:0.00663588362839318251,Pseudapis_flavolobata:0.00427787724682928902)100:0.00254514060995454693)100:0.00235334148382326368)100:0.00447924203110618580,(Pseudapis_kenyensis:0.00355600382580056884,(Pseudapis_pandeana:0.00220924754397618193,Pseudapis_riftensis:0.00260294476350519900)99:0.00103021789621734637)100:0.01001433204852770695)100:0.00458190600409250082,Pseudapis_cinerea:0.01110410174653272096)100:0.00947917848675412095)100:0.01460810720481786097,(Steganomus_ennediensis:0.01459833755592595053,Steganomus_junodi:0.02114487555111022737)100:0.03057232382842491394)100:0.00522947448141387709,((((Pachynomia_tshibindica:0.00430087693770325394,Pachynomia_amoenula:0.00505708549472292952)100:0.00396911825799519790,Pachynomia_flavicarpa:0.01254417952033236826)100:0.01757202604237042415,((Stictonomia_aliceae:0.00634378493698700523,Stictonomia_schubotzi:0.01864870882195119803)100:0.00488148974361383211,Stictonomia_sangaensis:0.01180184342531006951)100:0.00721945935604286632)100:0.01068316617543577270,Ruginomia_rugiventris:0.04624676152710931881)100:0.00156439545757050655)100:0.02774356794574121127)100:0.00240523160423870147)87:0.00159065413360360360)100:0.01922867980865768447,(Curvinomia_chalybeata:0.03611654290093422454,(Acunomia_melanderi:0.02485906248674424335,Hoplonomia_elliottii:0.04174744923266288793)100:0.00338382564133610101)100:0.00351299490816123260,Austronomia_australica:0.03085885472882373207);
+#NEXUS
+begin taxa;
+	dimensions ntax=32;
+	taxlabels
+	Acunomia_melanderi
+	Afronomia_circumnitens
+	Austronomia_australica
+	Curvinomia_chalybeata
+	Dieunomia_heteropoda
+	Dieunomia_triangulifera
+	Dufourea_novaeangliae
+	Hoplonomia_elliottii
+	Lasioglossum_albipes
+	Lipotriches_collaris
+	Lipotriches_justiciae
+	Macronomia_clavisetis
+	Nomiapis_bispinosa
+	Nomiapis_diversipes
+	Pachynomia_amoenula
+	Pachynomia_flavicarpa
+	Pachynomia_tshibindica
+	Pseudapis_cinerea
+	Pseudapis_flavolobata
+	Pseudapis_interstitinervis
+	Pseudapis_kenyensis
+	Pseudapis_nilotica
+	Pseudapis_oxybeloides
+	Pseudapis_pandeana
+	Pseudapis_riftensis
+	Pseudapis_siamensis
+	Ruginomia_rugiventris
+	Steganomus_ennediensis
+	Steganomus_junodi
+	Stictonomia_aliceae
+	Stictonomia_sangaensis
+	Stictonomia_schubotzi
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((Lipotriches_justiciae:0.016069,Lipotriches_collaris:0.021036)[&label=100]:0.037783,((Afronomia_circumnitens:0.041378,Macronomia_clavisetis:0.055842)[&label=100]:0.004034,(((Dieunomia_triangulifera:0.005252,Dieunomia_heteropoda:0.007765)[&label=100]:0.070706,(Lasioglossum_albipes:0.286588,Dufourea_novaeangliae:0.307633)[&label=100]:0.080233)[&label=100]:0.015196,((((Nomiapis_diversipes:0.006392,Nomiapis_bispinosa:0.009948)[&label=100]:0.00845,((((Pseudapis_siamensis:0.004558,Pseudapis_oxybeloides:0.00391)[&label=100]:0.00403,(Pseudapis_interstitinervis:0.00658,(Pseudapis_nilotica:0.006636,Pseudapis_flavolobata:0.004278)[&label=100]:0.002545)[&label=100]:0.002353)[&label=100]:0.004479,(Pseudapis_kenyensis:0.003556,(Pseudapis_pandeana:0.002209,Pseudapis_riftensis:0.002603)[&label=99]:0.00103)[&label=100]:0.010014)[&label=100]:0.004582,Pseudapis_cinerea:0.011104)[&label=100]:0.009479)[&label=100]:0.014608,(Steganomus_ennediensis:0.014598,Steganomus_junodi:0.021145)[&label=100]:0.030572)[&label=100]:0.005229,((((Pachynomia_tshibindica:0.004301,Pachynomia_amoenula:0.005057)[&label=100]:0.003969,Pachynomia_flavicarpa:0.012544)[&label=100]:0.017572,((Stictonomia_aliceae:0.006344,Stictonomia_schubotzi:0.018649)[&label=100]:0.004881,Stictonomia_sangaensis:0.011802)[&label=100]:0.007219)[&label=100]:0.010683,Ruginomia_rugiventris:0.046247)[&label=100,!color=#ff0000]:0.001564)[&label=100]:0.027744)[&label=100]:0.002405)[&label=87,!color=#ff0000]:0.001591)[&label=100]:0.019229,(Curvinomia_chalybeata:0.036117,(Acunomia_melanderi:0.024859,Hoplonomia_elliottii:0.041747)[&label=100]:0.003384)[&label=100]:0.003513,Austronomia_australica:0.030859);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName=".AppleSystemUIFont";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.04;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=2;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
