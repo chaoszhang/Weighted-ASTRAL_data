@@ -1,60 +1,44 @@
 #NEXUS
 begin taxa;
-	dimensions ntax=48;
+	dimensions ntax=32;
 	taxlabels
-	ACACH
-	ANAPL
-	APAVI
-	APTFO
-	BALRE
-	BUCRH
-	CALAN
-	CAPCA
-	CARCR
-	CATAU
-	CHAPE
-	CHAVO
-	CHLUN
-	COLLI
-	COLST
-	CORBR
-	CUCCA
-	EGRGA
-	EURHE
-	FALPE
-	FULGL
-	GALGA
-	GAVST
-	GEOFO
-	HALAL
-	HALLE
-	LEPDI
-	MANVI
-	MELGA
-	MELUN
-	MERNU
-	MESUN
-	NESNO
-	NIPNI
-	OPHHO
-	PELCR
-	PHACA
-	PHALE
-	PHORU
-	PICPU
-	PODCR
-	PTEGU
-	PYGAD
-	STRCA
-	TAEGU
-	TAUER
-	TINMA
-	TYTAL
+	Acunomia_melanderi
+	Afronomia_circumnitens
+	Austronomia_australica
+	Curvinomia_chalybeata
+	Dieunomia_heteropoda
+	Dieunomia_triangulifera
+	Dufourea_novaeangliae
+	Hoplonomia_elliotii
+	Lasioglossum_albipes
+	Lipotriches_collaris
+	Lipotriches_justiciae
+	Macronomia_clavisetis
+	Nomiapis_bispinosa
+	Nomiapis_diversipes
+	Pachynomia_amoenula
+	Pachynomia_flavicarpa
+	Pachynomia_tshibindica
+	Pseudapis_cinerea
+	Pseudapis_flavolobata
+	Pseudapis_interstitinervis
+	Pseudapis_kenyensis
+	Pseudapis_nilotica
+	Pseudapis_oxybeloides
+	Pseudapis_pandeana
+	Pseudapis_riftensis
+	Pseudapis_siamensis
+	Ruginomia_rugiventris
+	Steganomus_ennediensis
+	Steganomus_junodi
+	Stictonomia_aliceae
+	Stictonomia_sangaensis
+	Stictonomia_schubotzi
 ;
 end;
 
 begin trees;
-	tree tree_1 = [&R] (((((((((((((((((EGRGA:1.0,PELCR:1.0)[&label=1.0]:0.052807,NIPNI:1.0)[&label=1.0]:0.182893,PHACA:1.0)[&label=1.0]:0.26896,((APTFO:1.0,PYGAD:1.0)[&label=1.0,!rotate=true]:2.892684,FULGL:1.0)[&label=1.0]:0.140229)[&label=1.0]:0.26498,GAVST:1.0)[&label=1.0]:0.245721,(EURHE:1.0,PHALE:1.0)[&label=1.0]:0.163882)[&label=0.627744,!color=#ff0000]:0.016432,BALRE:1.0)[&label=0.825413]:0.012289,(PODCR:1.0,PHORU:1.0)[&label=1.0]:1.314593)[&label=0.878381]:0.016446,CHAVO:1.0)[&label=0.626678]:0.00719,OPHHO:1.0)[&label=0.791234]:0.011423,(CHLUN:1.0,TAUER:1.0)[&label=1.0]:0.055798)[&label=0.947347]:0.020345,((((MELGA:1.0,GALGA:1.0)[&label=1.0]:3.32367,ANAPL:1.0)[&label=1.0]:1.619218,(STRCA:1.0,TINMA:1.0)[&label=1.0]:2.242058)[&label=1.0]:1.359905,(((PTEGU:1.0,MESUN:1.0)[&label=1.0]:0.156319,COLLI:1.0)[&label=0.808296]:0.016171,CUCCA:1.0)[&label=0.971182]:0.020959)[&label=0.892019]:0.015513)[&label=0.854107]:0.013427,((CALAN:1.0,CHAPE:1.0)[&label=1.0]:1.263994,CAPCA:1.0)[&label=1.0]:0.250812)[&label=1.0]:0.310798,(((HALAL:1.0,HALLE:1.0)[&label=1.0]:3.624884,CATAU:1.0)[&label=1.0]:0.181113,TYTAL:1.0)[&label=1.0]:0.058662)[&label=1.0]:0.059254,(((((PICPU:1.0,MERNU:1.0)[&label=1.0]:0.130577,BUCRH:1.0)[&label=1.0]:0.160052,APAVI:1.0)[&label=1.0]:0.078792,LEPDI:1.0)[&label=1.0]:0.115436,COLST:1.0)[&label=0.917112]:0.017557)[&label=0.997482]:0.050211,((((((GEOFO:1.0,TAEGU:1.0)[&label=1.0]:2.380479,CORBR:1.0)[&label=1.0]:2.604372,MANVI:1.0)[&label=1.0]:0.985872,ACACH:1.0)[&label=1.0]:2.152575,(NESNO:1.0,MELUN:1.0)[&label=1.0]:2.603657)[&label=1.0]:0.140921,FALPE:1.0)[&label=1.0]:0.103944):1.0,CARCR:1.0);
+	tree tree_1 = [&R] (((((((((((((Pseudapis_flavolobata:1.0,Pseudapis_nilotica:1.0)[&label=1.0,!rotate=true]:0.54753,Pseudapis_interstitinervis:1.0)[&label=1.0,!rotate=true]:0.563598,(Pseudapis_siamensis:1.0,Pseudapis_oxybeloides:1.0)[&label=1.0,!rotate=true]:1.682501)[&label=1.0,!rotate=true]:1.381398,((Pseudapis_riftensis:1.0,Pseudapis_pandeana:1.0)[&label=1.0]:0.409309,Pseudapis_kenyensis:1.0)[&label=1.0,!rotate=true]:2.233635)[&label=1.0,!rotate=true]:1.319496,Pseudapis_cinerea:1.0)[&label=1.0,!rotate=true]:2.39824,(Nomiapis_bispinosa:1.0,Nomiapis_diversipes:1.0)[&label=1.0]:2.505654)[&label=1.0,!rotate=true]:2.129414,(Steganomus_ennediensis:1.0,Steganomus_junodi:1.0)[&label=1.0]:2.342069)[&label=0.999999,!rotate=true]:0.485887,Ruginomia_rugiventris:1.0)[&label=0.489637,!color=#ff0000,!rotate=true]:0.050142,(((Pachynomia_tshibindica:1.0,Pachynomia_amoenula:1.0)[&label=1.0]:0.99969,Pachynomia_flavicarpa:1.0)[&label=1.0,!rotate=true]:2.319985,((Stictonomia_schubotzi:1.0,Stictonomia_aliceae:1.0)[&label=0.997124]:0.315904,Stictonomia_sangaensis:1.0)[&label=1.0,!rotate=true]:0.990709)[&label=1.0]:2.131996)[&label=1.0,!rotate=true]:3.26013,((((Hoplonomia_elliotii:1.0,Acunomia_melanderi:1.0)[&label=1.0,!rotate=true]:0.328828,Curvinomia_chalybeata:1.0)[&label=1.0,!rotate=true]:0.420645,Austronomia_australica:1.0)[&label=1.0,!rotate=true]:3.155559,((Lipotriches_justiciae:1.0,Lipotriches_collaris:1.0)[&label=1.0,!rotate=true]:4.429854,(Macronomia_clavisetis:1.0,Afronomia_circumnitens:1.0)[&label=0.999985]:0.277583)[&label=0.346951,!rotate=true,!color=#ff0000]:0.0)[&label=0.931776,!rotate=true]:0.126251)[&label=1.0,!rotate=true]:0.722421,(Dieunomia_heteropoda:1.0,Dieunomia_triangulifera:1.0)[&label=1.0]:4.749336)[&label=1.0,!rotate=true]:1.865873,Lasioglossum_albipes:1.0):1.0,Dufourea_novaeangliae:1.0);
 end;
 
 begin figtree;
@@ -136,13 +120,13 @@ begin figtree;
 	set tipLabels.colorAttribute="User selection";
 	set tipLabels.displayAttribute="Names";
 	set tipLabels.fontName="sansserif";
-	set tipLabels.fontSize=8;
+	set tipLabels.fontSize=13;
 	set tipLabels.fontStyle=0;
 	set tipLabels.isShown=true;
 	set tipLabels.significantDigits=4;
 	set trees.order=true;
 	set trees.orderType="increasing";
-	set trees.rooting=false;
+	set trees.rooting=true;
 	set trees.rootingType="User Selection";
 	set trees.transform=true;
 	set trees.transformType="cladogram";
