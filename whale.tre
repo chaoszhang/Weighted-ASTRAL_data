@@ -77,11 +77,11 @@ begin taxa;
 	Sotalia_guianensis
 	Sousa_chinensis
 	Stenella_attenuata
-	Stenella_clymene1724
-	Stenella_clymene1726
-	Stenella_coeruleoalba
+	Stenella_clymene1724[&!color=#800080]
+	Stenella_clymene1726[&!color=#800080]
+	Stenella_coeruleoalba[&!color=#0000ff]
 	Stenella_frontalis
-	Stenella_longirostris
+	Stenella_longirostris[&!color=#ff0000]
 	Steno_bredanensis
 	Sus_scrofa
 	Tasmacetus_shepherdi
@@ -94,7 +94,7 @@ begin taxa;
 end;
 
 begin trees;
-	tree tree_1 = [&R] ((((((((((((((((((((((((Stenella_longirostris:1.0,Stenella_clymene1726[&!color=#0000ff]:1.0)[&label=1.0]:0.402101,Lagenodelphis_hosei:1.0)[&label=0.949873]:0.055559,Delphinus_delphis:1.0)[&label=0.994336]:0.101854,Stenella_clymene1724[&!color=#0000ff]:1.0)[&label=1.0]:0.170522,Stenella_coeruleoalba:1.0)[&label=0.683932]:0.024161,((Stenella_frontalis:1.0,Stenella_attenuata:1.0)[&label=1.0,!rotate=true]:0.85567,Tursiops_aduncus:1.0)[&label=0.999958,!color=#ff0000]:0.096372)[&label=0.999617,!color=#ff0000]:0.085224,Tursiops_truncatus:1.0)[&label=1.0]:0.561648,Sousa_chinensis:1.0)[&label=1.0]:0.32447,Sotalia_guianensis:1.0)[&label=1.0]:0.914228,((((((Globicephala_macrorhynchus:1.0,Globicephala_melas:1.0)[&label=1.0,!rotate=true]:1.310838,(Peponocephala_electra:1.0,Feresa_attenuata:1.0)[&label=1.0]:0.207612)[&label=1.0]:0.746783,Pseudorca_crassidens:1.0)[&label=1.0]:0.394135,Grampus_griseus:1.0)[&label=1.0]:1.033068,Steno_bredanensis:1.0)[&label=1.0]:0.626402,(Orcaella_heinsohnii:1.0,Orcaella_brevirostris:1.0)[&label=1.0,!rotate=true]:2.175074)[&label=1.0]:0.252459)[&label=1.0]:0.164599,((((Cephalorhynchus_heavisidii:1.0,Lagenorhynchus_australis:1.0)[&label=1.0,!rotate=true]:0.696471,Cephalorhynchus_commersoni:1.0)[&label=1.0]:0.878055,(Lagenorhynchus_obliquidens:1.0,Lagenorhynchus_obscurus:1.0)[&label=1.0]:1.638641)[&label=0.998969]:0.101321,(Lissodelphis_borealis:1.0,Lissodelphis_peroni:1.0)[&label=1.0,!rotate=true]:1.070947)[&label=1.0]:1.954623)[&label=1.0]:0.255587,Orcinus_orca:1.0)[&label=0.624865,!color=#ff0000]:0.026361,Lagenorhynchus_albirostris:1.0)[&label=1.0]:0.446072,Lagenorhynchus_acutus:1.0)[&label=1.0]:2.685942,(((((Phocoena_dioptrica:1.0,Phocoena_spinnipinis:1.0)[&label=1.0,!rotate=true]:1.694989,Phocoena_phocoena:1.0)[&label=1.0]:0.829448,Neophocaena_phocaenoides:1.0)[&label=0.578808,!color=#ff0000]:0.167094,Phocoenoides_dalli:1.0)[&label=1.0]:1.850778,(Monodon_monoceros:1.0,Delphinapterus_leucas:1.0)[&label=1.0]:1.398407)[&label=1.0]:1.548292)[&label=1.0]:2.07248,((Pontoporia_blainvillei:1.0,Inia_geoffrensis:1.0)[&label=1.0]:1.201623,Lipotes_vexillifer:1.0)[&label=1.0]:0.210812)[&label=1.0]:2.374653,(((((((((((Mesoplodon_peruvianus:1.0,Mesoplodon_perrini:1.0)[&label=1.0]:0.920614,Mesoplodon_densirostris:1.0)[&label=0.99998]:0.108025,Mesolpodon_stejnegeri:1.0)[&label=1.0]:0.69598,Mesoplodon_grayii:1.0)[&label=1.0]:0.217432,Mesoplodon_hectori:1.0)[&label=1.0]:0.755199,((Mesoplodon_bowdoini:1.0,Mesoplodon_carlhubbsi:1.0)[&label=1.0]:0.444253,Mesoplodon_layardi:1.0)[&label=1.0]:0.591695)[&label=1.0]:0.326183,(((Mesoplodon_mirus:1.0,Mesoplodon_europaeus:1.0)[&label=1.0,!rotate=true]:0.231271,Mesoplodon_gingkodens:1.0)[&label=1.0]:1.226675,Mesoplodon_bidens:1.0)[&label=0.998883]:0.071142)[&label=1.0]:1.23132,(Hyperoodon_ampullatus:1.0,Hyperoodon_planifrons:1.0)[&label=1.0,!rotate=true]:0.317775)[&label=1.0]:0.475174,Ziphius_cavirostris:1.0)[&label=1.0]:0.22626,Tasmacetus_shepherdi:1.0)[&label=1.0]:0.796931,(Berardius_arnouxii:1.0,Berardius_bairdii:1.0)[&label=1.0,!rotate=true]:2.25292)[&label=1.0]:2.991443)[&label=1.0]:1.448083,((Kogia_sima:1.0,Kogia_brevirostris:1.0)[&label=1.0,!rotate=true]:3.809045,Physeter_macrocephalus:1.0)[&label=1.0]:2.91269)[&label=1.0]:0.959152,((((((Panthalops_hodgsonii:1.0,Ovis_aries:1.0)[&label=1.0]:1.741474,Oryx_leucoryx:1.0)[&label=1.0]:1.190989,Gazella_arabica:1.0)[&label=1.0]:1.640245,(Tragelaphus_eurycerus:1.0,Bos_taurus:1.0)[&label=1.0]:1.453684)[&label=1.0]:5.107593,(((Vicugna_pacos:1.0,Camelus_bactrianus:1.0)[&label=1.0]:3.635648,Equus_caballus:1.0)[&label=1.0]:0.432682,Sus_scrofa:1.0)[&label=1.0]:1.360306)[&label=1.0]:0.849688,(Choeropsis_liberiensis:1.0,Hippopotamus_amphibius:1.0)[&label=1.0,!rotate=true]:4.240758)[&label=1.0]:3.559186)[&label=1.0]:2.612948,(((Eubalaena_japonica:1.0,Eubalaena_glacialis:1.0)[&label=1.0,!rotate=true]:0.492033,Eubalaena_australis:1.0)[&label=1.0]:1.858871,Balaena_mysticetus:1.0)[&label=1.0]:2.520733)[&label=1.0]:0.86105,Caperea_marginata:1.0)[&label=1.0]:1.697962,((((Balaenoptera_edeni:1.0,Balaenoptera_borealis:1.0)[&label=1.0]:2.421314,Balaenoptera_musculus:1.0)[&label=1.0]:0.647586,(Balaenoptera_physalus:1.0,Megaptera_novaeangliae:1.0)[&label=1.0]:0.596288)[&label=1.0]:0.151423,Eschrictius_robustus:1.0)[&label=1.0]:0.171032)[&label=1.0,!rotate=true]:1.874861,Balaenoptera_bonaerensis:1.0):1.0,Balaenoptera_acutorostrata:1.0);
+	tree tree_1 = [&R] ((((((((((((((((((((((((Stenella_longirostris:1.0,Stenella_clymene1726[&!color=#000000]:1.0)[&label=1.0]:0.402101,Lagenodelphis_hosei:1.0)[&label=0.949873]:0.055559,Delphinus_delphis:1.0)[&label=0.994336]:0.101854,Stenella_clymene1724[&!color=#000000]:1.0)[&label=1.0]:0.170522,Stenella_coeruleoalba:1.0)[&label=0.683932]:0.024161,((Stenella_frontalis:1.0,Stenella_attenuata:1.0)[&label=1.0,!rotate=true]:0.85567,Tursiops_aduncus:1.0)[&label=0.999958,!color=#ff0000]:0.096372)[&label=0.999617,!color=#ff0000]:0.085224,Tursiops_truncatus:1.0)[&label=1.0]:0.561648,Sousa_chinensis:1.0)[&label=1.0]:0.32447,Sotalia_guianensis:1.0)[&label=1.0]:0.914228,((((((Globicephala_macrorhynchus:1.0,Globicephala_melas:1.0)[&label=1.0,!rotate=true]:1.310838,(Peponocephala_electra:1.0,Feresa_attenuata:1.0)[&label=1.0]:0.207612)[&label=1.0]:0.746783,Pseudorca_crassidens:1.0)[&label=1.0]:0.394135,Grampus_griseus:1.0)[&label=1.0]:1.033068,Steno_bredanensis:1.0)[&label=1.0]:0.626402,(Orcaella_heinsohnii:1.0,Orcaella_brevirostris:1.0)[&label=1.0,!rotate=true]:2.175074)[&label=1.0]:0.252459)[&label=1.0]:0.164599,((((Cephalorhynchus_heavisidii:1.0,Lagenorhynchus_australis:1.0)[&label=1.0,!rotate=true]:0.696471,Cephalorhynchus_commersoni:1.0)[&label=1.0]:0.878055,(Lagenorhynchus_obliquidens:1.0,Lagenorhynchus_obscurus:1.0)[&label=1.0]:1.638641)[&label=0.998969]:0.101321,(Lissodelphis_borealis:1.0,Lissodelphis_peroni:1.0)[&label=1.0,!rotate=true]:1.070947)[&label=1.0]:1.954623)[&label=1.0]:0.255587,Orcinus_orca:1.0)[&label=0.624865,!color=#ff0000]:0.026361,Lagenorhynchus_albirostris:1.0)[&label=1.0]:0.446072,Lagenorhynchus_acutus:1.0)[&label=1.0]:2.685942,(((((Phocoena_dioptrica:1.0,Phocoena_spinnipinis:1.0)[&label=1.0,!rotate=true]:1.694989,Phocoena_phocoena:1.0)[&label=1.0]:0.829448,Neophocaena_phocaenoides:1.0)[&label=0.578808,!color=#ff0000]:0.167094,Phocoenoides_dalli:1.0)[&label=1.0]:1.850778,(Monodon_monoceros:1.0,Delphinapterus_leucas:1.0)[&label=1.0]:1.398407)[&label=1.0]:1.548292)[&label=1.0]:2.07248,((Pontoporia_blainvillei:1.0,Inia_geoffrensis:1.0)[&label=1.0]:1.201623,Lipotes_vexillifer:1.0)[&label=1.0]:0.210812)[&label=1.0]:2.374653,(((((((((((Mesoplodon_peruvianus:1.0,Mesoplodon_perrini:1.0)[&label=1.0]:0.920614,Mesoplodon_densirostris:1.0)[&label=0.99998]:0.108025,Mesolpodon_stejnegeri:1.0)[&label=1.0]:0.69598,Mesoplodon_grayii:1.0)[&label=1.0]:0.217432,Mesoplodon_hectori:1.0)[&label=1.0]:0.755199,((Mesoplodon_bowdoini:1.0,Mesoplodon_carlhubbsi:1.0)[&label=1.0]:0.444253,Mesoplodon_layardi:1.0)[&label=1.0]:0.591695)[&label=1.0]:0.326183,(((Mesoplodon_mirus:1.0,Mesoplodon_europaeus:1.0)[&label=1.0,!rotate=true]:0.231271,Mesoplodon_gingkodens:1.0)[&label=1.0]:1.226675,Mesoplodon_bidens:1.0)[&label=0.998883]:0.071142)[&label=1.0]:1.23132,(Hyperoodon_ampullatus:1.0,Hyperoodon_planifrons:1.0)[&label=1.0,!rotate=true]:0.317775)[&label=1.0]:0.475174,Ziphius_cavirostris:1.0)[&label=1.0]:0.22626,Tasmacetus_shepherdi:1.0)[&label=1.0]:0.796931,(Berardius_arnouxii:1.0,Berardius_bairdii:1.0)[&label=1.0,!rotate=true]:2.25292)[&label=1.0]:2.991443)[&label=1.0]:1.448083,((Kogia_sima:1.0,Kogia_brevirostris:1.0)[&label=1.0,!rotate=true]:3.809045,Physeter_macrocephalus:1.0)[&label=1.0]:2.91269)[&label=1.0]:0.959152,((((((Panthalops_hodgsonii:1.0,Ovis_aries:1.0)[&label=1.0]:1.741474,Oryx_leucoryx:1.0)[&label=1.0]:1.190989,Gazella_arabica:1.0)[&label=1.0]:1.640245,(Tragelaphus_eurycerus:1.0,Bos_taurus:1.0)[&label=1.0]:1.453684)[&label=1.0]:5.107593,(((Vicugna_pacos:1.0,Camelus_bactrianus:1.0)[&label=1.0]:3.635648,Equus_caballus[&!rotate=false]:1.0)[&label=1.0]:0.432682,Sus_scrofa:1.0)[&label=1.0]:1.360306)[&label=1.0]:0.849688,(Choeropsis_liberiensis:1.0,Hippopotamus_amphibius:1.0)[&label=1.0,!rotate=true]:4.240758)[&label=1.0]:3.559186)[&label=1.0]:2.612948,(((Eubalaena_japonica:1.0,Eubalaena_glacialis:1.0)[&label=1.0,!rotate=true]:0.492033,Eubalaena_australis:1.0)[&label=1.0]:1.858871,Balaena_mysticetus:1.0)[&label=1.0]:2.520733)[&label=1.0]:0.86105,Caperea_marginata:1.0)[&label=1.0]:1.697962,((((Balaenoptera_edeni:1.0,Balaenoptera_borealis:1.0)[&label=1.0]:2.421314,Balaenoptera_musculus:1.0)[&label=1.0]:0.647586,(Balaenoptera_physalus:1.0,Megaptera_novaeangliae:1.0)[&label=1.0]:0.596288)[&label=1.0]:0.151423,Eschrictius_robustus:1.0)[&label=1.0]:0.171032)[&label=1.0,!rotate=true]:1.874861,Balaenoptera_bonaerensis:1.0):1.0,Balaenoptera_acutorostrata:1.0);
 end;
 
 begin figtree;
@@ -109,12 +109,12 @@ begin figtree;
 	set appearance.hilightingGradient=false;
 	set appearance.selectionColour=#2d3680;
 	set branchLabels.colorAttribute="User selection";
-	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.displayAttribute="label";
 	set branchLabels.fontName="sansserif";
 	set branchLabels.fontSize=8;
 	set branchLabels.fontStyle=0;
-	set branchLabels.isShown=false;
-	set branchLabels.significantDigits=4;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
 	set layout.expansion=0;
 	set layout.layoutType="RECTILINEAR";
 	set layout.zoom=0;
@@ -130,7 +130,7 @@ begin figtree;
 	set nodeLabels.fontName="sansserif";
 	set nodeLabels.fontSize=8;
 	set nodeLabels.fontStyle=0;
-	set nodeLabels.isShown=true;
+	set nodeLabels.isShown=false;
 	set nodeLabels.significantDigits=2;
 	set nodeShapeExternal.colourAttribute="User selection";
 	set nodeShapeExternal.isShown=false;
@@ -170,14 +170,14 @@ begin figtree;
 	set scaleAxis.showGrid=true;
 	set scaleBar.automaticScale=true;
 	set scaleBar.fontSize=10.0;
-	set scaleBar.isShown=true;
+	set scaleBar.isShown=false;
 	set scaleBar.lineWidth=1.0;
-	set scaleBar.scaleRange=0.0;
+	set scaleBar.scaleRange=3.0;
 	set tipLabels.colorAttribute="User selection";
 	set tipLabels.displayAttribute="Names";
-	set tipLabels.fontName="sansserif";
-	set tipLabels.fontSize=9;
-	set tipLabels.fontStyle=0;
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=2;
 	set tipLabels.isShown=true;
 	set tipLabels.significantDigits=4;
 	set trees.order=true;
