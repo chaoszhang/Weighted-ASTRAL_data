@@ -230,7 +230,7 @@ begin figtree;
 	set branchLabels.fontStyle=0;
 	set branchLabels.isShown=false;
 	set branchLabels.significantDigits=4;
-	set layout.expansion=0;
+	set layout.expansion=164;
 	set layout.layoutType="RECTILINEAR";
 	set layout.zoom=0;
 	set legend.attribute="label";
@@ -299,7 +299,7 @@ begin figtree;
 	set trees.orderType="decreasing";
 	set trees.rooting=true;
 	set trees.rootingType="User Selection";
-	set trees.transform=false;
+	set trees.transform=true;
 	set trees.transformType="cladogram";
 end;
 
