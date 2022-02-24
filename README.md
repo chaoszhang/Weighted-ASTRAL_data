@@ -34,7 +34,8 @@ We also keep estimated gene trees with Bootstrap support, true species trees, an
 
 ## Biological datasets
 ### File organization
-Estimated gene trees are located at `biological/gene_trees/${DATASET}_${WEIGHTING_METHOD}`, where `WEIGHTING_METHOD=bs` for Bootstrap, `WEIGHTING_METHOD=sh` for SH-like, and `WEIGHTING_METHOD=bayes` for approxiamte Bayesian.
+Estimated gene trees are located at `biological/gene_trees/${DATASET}_${WEIGHTING_METHOD}` (expect for [Canis](https://drive.google.com/file/d/1m36m5H9UTr2LgG91PRKpBrgZqoVoda9F) which is too large), where `WEIGHTING_METHOD=bs` for Bootstrap, `WEIGHTING_METHOD=sh` for SH-like, and `WEIGHTING_METHOD=bayes` for approxiamte Bayesian.
+
 Estimated species trees are located at `biological/species_trees/${DATASET}_${RECORSTRUCTION_METHOD}${_OPTIONAL_WEIGHTING_METHOD}`, where `RECORSTRUCTION_METHOD=hybrid` for weighted ASTRAL with hybrid weighting, `RECORSTRUCTION_METHOD=astral` for ASTRAL-III, `RECORSTRUCTION_METHOD=concat` for concatenation, `RECORSTRUCTION_METHOD=published` for  the approach published in the source paper.
 
 ### One thousand plant (1kp)
