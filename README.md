@@ -16,6 +16,7 @@ For true species trees: `TREE_FILE=s_tree.trees`
 Sequence data have names `alignments-200taxon-${TREE_HEIGHT}.tar.bz`.
 
 ## S100 dataset
+### file organization
 True species trees are located at `S100/${REPLICATE_NUMBER}/s_tree.trees`.
 
 Folder structure for estiamated trees: `S100/${REPLICATE_NUMBER}/bestMLestimatedgenetree/${TREE_FILE}`
