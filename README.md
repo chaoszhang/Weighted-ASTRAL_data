@@ -30,5 +30,10 @@ For estimated species trees: `TREE_FILE=${INPUT_GENE_TREE}.${NUM_GENES_USED}.${R
 ### Large Data Files
 Estimated gene trees, true species trees, ASTRAL estimated species trees, and sequence data can be found [here](https://gitlab.com/esayyari/ASTRALIII/-/blob/master/S101.tar.gz).
 
+## Biological datasets
+### file organization
+Estimated gene trees are located at `biological/gene_trees/${DATASET}_${WEIGHTING_METHOD}`, where `WEIGHTING_METHOD=bs` for Bootstrap, `WEIGHTING_METHOD=sh` for SH-like, and `WEIGHTING_METHOD=bayes` for Approxiamte Bayesian.
+Estimated species trees are located at `biological/species_trees/${DATASET}_${RECORSTRUCTION_METHOD}${_OPTIONAL_WEIGHTING_METHOD}`, where `RECORSTRUCTION_METHOD=hybrid` for weighted ASTRAL with hybrid weighting, `RECORSTRUCTION_METHOD=astral` for ASTRAL-III, `RECORSTRUCTION_METHOD=concat` for concatenation, `RECORSTRUCTION_METHOD=published` for original approach from the source paper.
+
 ## Canis biological dataset (gene trees)
 https://drive.google.com/file/d/1m36m5H9UTr2LgG91PRKpBrgZqoVoda9F/view?usp=sharing
