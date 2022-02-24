@@ -60,6 +60,7 @@ All data can be found [here](https://datadryad.org/stash/dataset/doi:10.5061/dry
 
 ### Insect-Pseudapis (bee)
 [Gene Tree Estimation Error with Ultraconserved Elements: An Empirical Study on Pseudapis Bees](https://academic.oup.com/sysbio/article-abstract/70/4/803/6050959)
+All data can be found [here](https://datadryad.org/stash/dataset/doi:10.5061/dryad.z08kprrb6)
 
 ### Insect-Lepidoptera (butterfly)
 [Phylogenomics reveals the evolutionary timing and pattern of butterflies and moths](https://www.pnas.org/content/116/45/22657)
