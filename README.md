@@ -17,6 +17,9 @@ Sequence data have names `alignments-200taxon-${TREE_HEIGHT}.tar.bz`.
 
 We also keep estimated gene trees with SH-like support, true species trees, and new estimated gene trees with approximate Baysian support [here](https://drive.google.com/file/d/1goWK2IybQQPlCpTB0JLfdDmIuiQMTZz9).
 
+### Missing Taxa
+The gene trees with simulated missing taxa (Figure 4) and estimated species trees can be accessed [here](https://drive.google.com/file/d/1NRIfiSgbwdcZnyPZG7STBClMPLgCi--8/view?usp=sharing).
+
 ## S100 dataset
 ### File organization
 True species trees are located at `S100/${REPLICATE_NUMBER}/s_tree.trees`.
