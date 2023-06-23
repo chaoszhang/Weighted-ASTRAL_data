@@ -46,7 +46,7 @@ All data can be found [here](https://datacommons.cyverse.org/browse/iplant/home/
 [Interspecific Gene Flow Shaped the Evolution of the Genus Canis](https://www.sciencedirect.com/science/article/pii/S0960982218311254)
 
 Original Sequence data can be found [here](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA494815).
-We also keep estimated gene trees [here](https://drive.google.com/file/d/1m36m5H9UTr2LgG91PRKpBrgZqoVoda9F).
+We also keep estimated gene trees [here](https://datadryad.org/stash/dataset/doi:10.6076/D1WK5R).
 
 ### Avian (avian14k)
 [Whole-genome analyses resolve early branches in the tree of life of modern birds](https://www.science.org/doi/10.1126/science.1253451)
