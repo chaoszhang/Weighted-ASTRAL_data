@@ -14,7 +14,7 @@ For true species trees: `TREE_FILE=s_tree.trees`
 The original dataset can be found [here](https://datadryad.org/stash/dataset/doi:10.6076/D1WK5R), and sequence data can be found [here](https://sites.google.com/eng.ucsd.edu/datasets/astral/astral-ii).
 
 ### Missing Taxa
-The gene trees with simulated missing taxa (Figure 4) and estimated species trees can be accessed [here](https://drive.google.com/file/d/1NRIfiSgbwdcZnyPZG7STBClMPLgCi--8/view?usp=sharing).
+The gene trees with simulated missing taxa (Figure 4) and estimated species trees can be accessed [here](https://datadryad.org/stash/dataset/doi:10.6076/D1WK5R).
 
 ## S100 dataset
 ### File organization
@@ -27,9 +27,9 @@ For estimated gene trees: `TREE_FILE=estimatedgenetre_${GENE_LENGTH}.gtr.reroote
 For estimated species trees: `TREE_FILE=${INPUT_GENE_TREE}.${NUM_GENES_USED}.${RECORSTRUCTION_METHOD}`, where `RECORSTRUCTION_METHOD=astral-weighted` for support-weighted version (wASTRAL-s) and `RECORSTRUCTION_METHOD=astral-hybrid` for hybrid-weighted version (wASTRAL-h).
 
 ### Large Data Files
-he original dataset including estimated gene trees, true species trees, ASTRAL estimated species trees, and sequence data can be found [here](https://gitlab.com/esayyari/ASTRALIII/-/blob/master/S101.tar.gz).
+The original dataset including estimated gene trees, true species trees, ASTRAL estimated species trees, and sequence data can be found [here](https://gitlab.com/esayyari/ASTRALIII/-/blob/master/S101.tar.gz).
 
-We also keep estimated gene trees with Bootstrap support, true species trees, and new estimated gene trees with approximate Baysian support [here](https://drive.google.com/file/d/1KQjBiC9br7CPOqd9ztOq-bx1TKjzX8D4).
+We also keep estimated gene trees with Bootstrap support, true species trees, and new estimated gene trees with approximate Baysian support [here](https://datadryad.org/stash/dataset/doi:10.6076/D1WK5R).
 
 ## Biological datasets
 ### File organization
