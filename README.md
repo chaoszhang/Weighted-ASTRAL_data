@@ -11,11 +11,7 @@ For estimated species trees: `TREE_FILE=${INPUT_GENE_TREE}.${NUM_GENES_USED}.${R
 For true species trees: `TREE_FILE=s_tree.trees`
 
 ### Large Data Files
-The original dataset including [estimated gene trees](https://drive.google.com/file/d/0B0lcoFFOYQf8ZmlxM29lekw5VXM/view?resourcekey=0-iOVeb7Vz5fAhwMslx9Oa9Q), [true species trees](https://drive.google.com/file/d/0B0lcoFFOYQf8aE8wUjN5RHVoS1k/view?resourcekey=0-oL3jQh05DFAXSsTIyCdNTA), [ASTRAL estimated species trees](https://drive.google.com/file/d/0B0lcoFFOYQf8cXpVOFVBZi1kcWM/view?resourcekey=0-OFHPG-VPtwUfcmYOC3Jwmw), and sequence data can be found [here](https://sites.google.com/eng.ucsd.edu/datasets/astral/astral-ii).
-
-Sequence data have names `alignments-200taxon-${TREE_HEIGHT}.tar.bz`.
-
-We also keep estimated gene trees with SH-like support, true species trees, and new estimated gene trees with approximate Baysian support [here](https://drive.google.com/file/d/1goWK2IybQQPlCpTB0JLfdDmIuiQMTZz9).
+The original dataset can be found [here](https://datadryad.org/stash/dataset/doi:10.6076/D1WK5R), and sequence data can be found [here](https://sites.google.com/eng.ucsd.edu/datasets/astral/astral-ii).
 
 ### Missing Taxa
 The gene trees with simulated missing taxa (Figure 4) and estimated species trees can be accessed [here](https://drive.google.com/file/d/1NRIfiSgbwdcZnyPZG7STBClMPLgCi--8/view?usp=sharing).
